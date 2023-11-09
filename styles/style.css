@@ -1,1 +1,27 @@
-/* место для вашего кода */
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 1340px;
+    height: 109px;
+    flex-shrink: 0;
+}
+.header__menu {
+    display: flex;
+    flex-direction: row;
+}
+.header__links-list{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__logo {
+    width: 148px;
+    height: 105px;
+    flex-shrink: 0;    
+}
