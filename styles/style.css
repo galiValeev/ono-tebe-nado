@@ -102,7 +102,6 @@
   line-height: 115%;
   letter-spacing: 30px;
   align-self: center;
-  word-spacing: -25px;
   z-index: 2;
   margin-top: 16px;
   margin-right: 24.5px;
@@ -312,7 +311,6 @@
   font-style: normal;
   font-weight: 400;
   margin-left: 26px;
-  margin-top: 10px;
   width: 885px;
   line-height: 115%;
   margin-top: 30px;
