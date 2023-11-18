@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
+
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list_item_no-bullit">
-            <a class="header__links-list_item_no-underline" href="#">главная</a>
+            <a class="header__links-list_item_active" href="#">главная</a>
           </li>
           <li class="header__links-list_item">
             <a href="">посмотреть лоты</a>
@@ -44,9 +45,18 @@
     <main>
       <section class="cover">
         <div class="overlay"></div>
-        <h1 class="cover__title">он о</h1>
-        <h1 class="cover__title_middle">теб е</h1>
-        <h1 class="cover__title">н адо</h1>
+        <h1 class="cover__title">
+
+          <span class="aligned-text__left"
+            >о<span class="letter-spacing-more">но</span></span
+          >
+          <span class="aligned-text__center"
+            >те<span class="letter-spacing-more">бе</span></span
+          >
+          <span class="aligned-text__right"
+            ><span class="letter-spacing-more">н</span>ад<span class="letter-spacing-less">о</span></span
+          >
+        </h1>
         <div class="cover__footer">
           <p class="cover__subtitle">
             аукцион вещей, в которые никто не верил
@@ -54,23 +64,25 @@
           <button class="cover__button">сделать ставку</button>
         </div>
       </section>
-      <section class="cards__title">лоты</section>
+      
       <section class="cards">
-        <article class="card__movie">
+        <h2 class="cards__title">лоты</h2>
+        
+        <a href="#0" class="card__movie">
           <div class="overlay"></div>
-          <a href="#0" class="cards__card__title">
+          <h3 class="cards__card__title">
             Фильм режиссёра, который бросил киношколу
-          </a>
+          </h3>
           <p class="card__text">
             Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
             если бы вы не знали, что режиссёр — Пол Томас Андерсон?
           </p>
-        </article>
-        <article class="card__book">
+        </a>
+        <a href="#0" class="card__book">
           <div class="overlay"></div>
-          <a href="#0" class="cards__card__title">
+          <h3 class="cards__card__title">
             Книга, где описан один скучный день из жизни рекламного агента
-          </a>
+          </h3>
           <p class="card__text">
             Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
             переходами на древнеанглийский. В ней одновременно рассказывается о
@@ -78,22 +90,22 @@
             времён. И это всё накладывается на эпическую поэму Гомера. Сколько
             бы вы поставили на «Улисса» Джеймса Джойса?
           </p>
-        </article>
-        <article class="card__painting">
+        </a>
+        <a href="#0" class="card__painting">
           <div class="overlay"></div>
-          <a href="#0" class="cards__card__title">
+          <h3 class="cards__card__title">
             Картина, которую повторит даже 5-летний сын маминой подруги
-          </a>
+          </h3>
           <p class="card__text">
             Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
             похожее на инфузорию-туфельку. Никаких полей, лесов, котиков…
             Сколько бы вы на такое поставили, если бы не знали, что это — одна
             из революционных работ Кандинского?
           </p>
-        </article>
+        </a>
+        <a class="cards__link-more" href="#0">посмотреть больше</a>
       </section>
-      <a class="cards__link-more" href="#0">посмотреть больше</a>
-
+      
       <section class="about">
         <div class="about__logo">
           <img
@@ -110,7 +122,7 @@
           которую может нарисовать даже ребёнок? Кому нужны все эти странные
           вещи, созданные любителями?
         </p>
-        <p class="about__content__not-first">
+        <p class="about__content">
           Слишком сложные или, наоборот, слишком простые. Опережающие своё
           время. В пух и прах растерзанные критиками. Непринятые и непонятые.
           Когда-то они казались просто неудачными. Но, несмотря на критику,
