@@ -1,14 +1,4 @@
-.pixel-perfect-image {
-  
-  position: absolute;
-  top: 0;
-  width: 1440px;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0.5;
-    filter: sepia(0.6);
-    z-index: 3;
-} 
+
 .header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
